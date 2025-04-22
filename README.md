@@ -1,12 +1,44 @@
-# React + Vite
+# CANINOS SABS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Descripción
 
-Currently, two official plugins are available:
+Este es un proyecto desarrollado para la empresa **Caninos SABS**, que permite un manejo completo y eficiente de la información empresarial mediante una aplicación web con frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías utilizadas
+- **React**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🚀 Instalación del proyecto
+
+Primero, crea una carpeta en tu sistema donde alojarás tanto el frontend.
+
+```bash
+git clone https://github.com/JuanLondono01/CaninosFront.git
+```
+
+---
+
+## ⚙️ Configuración
+
+1. Accede a la carpeta del cliente:
+
+   ```bash
+   cd client
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
