@@ -22,7 +22,7 @@ function Navbar() {
                 <Link
                     to='/'
                     className='text-3xl font-extrabold text-white hover:text-sky-300 transition duration-300 flex items-center gap-4'>
-                    <img className='h-12' src='../public/icons8-dog-park-96.png' alt='Logo' />
+                    <img className='h-12' src='src/assets/imgs/icons8-dog-park-96.png' alt='Logo' />
                     Caninos SABS
                 </Link>
 
