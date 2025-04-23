@@ -87,6 +87,16 @@ function Users() {
     };
 
     const handleDelete = async (id) => {
+
+        if (id === 1) {
+            Swal.fire({
+                title: "No se puede eliminar el administrador global",
+                showConfirmButton: false,
+                timer: 1500,
+                icon: "error"
+            })
+        }
+
         try {
             const response = await deleteUser(id);
             if (response.status === 200) {
@@ -140,7 +150,7 @@ function Users() {
                                 <td className='px-4 py-2'>{user.fullName}</td>
                                 <td className='px-4 py-2'>{user.email}</td>
                                 <td className='px-4 py-2'>{user.role.name}</td>
-                                <td className='px-4 py-2'>{user.company.name}</td>
+                                <td className='px-4 py-2'>{user.company?.name}</td>
                                 <td className='px-4 py-2 flex gap-4'>
                                     <CiEdit
                                         color='blue'
