@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@mui/joy';
 import { HiMenu, HiX } from 'react-icons/hi';
-
+import Logo from '../../assets/imgs/logo.png'
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const navigate = useNavigate();
