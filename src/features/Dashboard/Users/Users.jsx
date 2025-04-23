@@ -95,6 +95,7 @@ function Users() {
                 timer: 1500,
                 icon: "error"
             })
+            return
         }
 
         try {
@@ -266,7 +267,7 @@ function Users() {
                                     <strong>Rol:</strong> {viewUser.role.name}
                                 </p>
                                 <p>
-                                    <strong>Compañía:</strong> {viewUser.company.name}
+                                    <strong>Compañía:</strong> {viewUser.company?.name}
                                 </p>
                             </div>
                         </>
