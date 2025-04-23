@@ -26,7 +26,7 @@ function Dashboard() {
 
     const navItems = [
         { to: '/', label: 'Inicio' },
-        { to: '', label: 'Usuarios' },
+        { to: '', label: 'Usuarios', show: role === 1 },
         { to: 'Roles', label: 'Roles', show: role === 1 },
         { to: 'Company', label: 'Compañía', show: role === 1 },
         { to: 'Products', label: 'Productos' },
