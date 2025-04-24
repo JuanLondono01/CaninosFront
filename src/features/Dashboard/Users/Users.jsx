@@ -23,6 +23,8 @@ function Users() {
     const [editOpen, setEditOpen] = useState(false);
     const [currentUserId, setCurrentUserId] = useState(null);
     const [viewUser, setViewUser] = useState(null);
+    const user = JSON.parse(localStorage.getItem('user'));
+    const role = user ? user.role : null;
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -88,7 +90,7 @@ function Users() {
 
     const handleDelete = async (id) => {
 
-        if (id === 1) {
+        if (role === 1) {
             Swal.fire({
                 title: "No se puede eliminar el administrador global",
                 showConfirmButton: false,
